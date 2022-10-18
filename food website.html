@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Responsive Food Website</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!--font awesome cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!--CSS file-->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!--header section-->
+
+    <header>
+
+        <a href="#" class="logo"><i class="fas fa-utensils"></i>TN31 Paradise.</a>
+
+        <nav class="navbar">
+            <a class="active" href="#Home">Home</a>
+            <a href="#Dishes">Dishes</a>
+            <a href="#About">About</a>
+            <a href="#Menu">Menu</a>
+            <a href="#Order">Order</a>
+            <a href="#Review">Review</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+
+        </div>
+
+    </header>
+
+    <!--header section ends-->
+
+    <!--search form-->
+
+    <form action="" id="search-form">
+        <input type="search" placeholder="search here..." name="" id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close"></i>
+    </form>
+
+    <!--Home page-->
+
+    <section class="home" id="Home">
+
+        <div class="swiper home-slider">
+
+            <div class="swiper-wrapper wrapper">
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Our special dish</span>
+                        <h3>chicken noodles</h3>
+                        <p>Sometimes happiness knocks you with spicy chicken mixed in noodles. enjoy ur spicy meal</p>
+                        <a href="#" class="btn">order now</a>
+                    </div>
+                    <div class="image">
+                        <img src="home-img-1.png" alt="">
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Our special dish</span>
+                        <h3>Grilled chicken</h3>
+                        <p>keep calm and eat fried and spicy grilled chicken. enjoy the match day madness</p>
+                        <a href="#" class="btn">order now</a>
+                    </div>
+                    <div class="image">
+                        <img src="grilled chicken.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Our special dish</span>
+                        <h3>italian pizza</h3>
+                        <p>you can't buy happiness, but you can buy pizza. it's time to eat pizza and relax</p>
+                        <a href="#" class="btn">order now</a>
+                    </div>
+                    <div class="image">
+                        <img src="pizza 1.jpg" alt="">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+
+
+    </section>
+
+    <!--Home page ends-->
+
+    <!--dishes section-->
+
+    <section class="dishes" id="Dishes">
+
+        <h3 class="sub-heading"> our dishes </h3>
+        <h1 class="heading"> popular dishes </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="dish-1.png" alt="">
+                <h3>Chicken burger</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>$12.50</span>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="dish-2.png" alt="">
+                <h3>Chicken nuggets</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <span>$25</span>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="dish-3.png" alt="">
+                <h3>fried chicken</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <span>$40</span>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="dish-4.png" alt="">
+                <h3>veg pizza</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>$30</span>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="dish-5.png" alt="">
+                <h3>chocofills</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <span>$15</span>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="dish-6.png" alt="">
+                <h3>Spicy chicken</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>$55.3</span>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+
+
+        </div>
+
+    </section>
+    <!--dishes section ends-->
+
+    <!--about section starts-->
+
+    <section class="about" id="About">
+
+        <h3 class="sub-heading"> about us </h3>
+        <h1 class="heading"> why choose us? </h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="chicken biriyani.jpg" alt="">
+            </div>
+
+            <div class="content">
+                <h3>Best Food in the Country</h3>
+                <p>We all love to eat healthy and tasty food.there are so many varieties of foods available all over the world. food gives us energy,without food there is no life.</p>
+                <p> we are preparing all varieties of food like italian style,chinese style,etc.our main goal is to feed the hungry people, and by the way dont waste food. </p>
+                <div class="icons-container">
+                    <div class="icons">
+                        <i class="fas fa-shipping-fast"></i>
+                        <span>Free delivery</span>
+                    </div>
+                    <div class="icons">
+                        <i class="fas fa-dollar-sign"></i>
+                        <span>easy payments</span>
+                    </div>
+                    <div class="icons">
+                        <i class="fas fa-headset"></i>
+                        <span>24/7 services</span>
+                    </div>
+                </div>
+                <a href="#" class="btn">Learn more</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--about section ends-->
+
+    <!--menu section starts-->
+
+    <section class="menu" id="Menu">
+
+        <h3 class="sub-heading"> our menu </h3>
+        <h1 class="heading"> today's offer </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                    <img src="menu-1.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>pepperoni pizza</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, accusantium.
+                    </p>
+                    <a href="#" class="btn">Add to cart</a>
+                    <span class="pice">$12.99</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="menu-2.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>Cheese Burger</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, accusantium.
+                    </p>
+                    <a href="#" class="btn">Add to cart</a>
+                    <span class="pice">$8.75</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="menu-3.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i></i>
+                    </div>
+                    <h3>Pan cake</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, accusantium.
+                    </p>
+                    <a href="#" class="btn">Add to cart</a>
+                    <span class="pice">$5.45</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="menu-4.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>vannila waffle</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, accusantium.
+                    </p>
+                    <a href="#" class="btn">Add to cart</a>
+                    <span class="pice">$15.99</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="menu-5.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i></i>
+                    </div>
+                    <h3>Strawberry Pancake</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, accusantium.
+                    </p>
+                    <a href="#" class="btn">Add to cart</a>
+                    <span class="pice">$10</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="menu-6.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Blackcurrent cake</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, accusantium.
+                    </p>
+                    <a href="#" class="btn">Add to cart</a>
+                    <span class="pice">$7.55</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="menu-7.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Fresh juice</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, accusantium.
+                    </p>
+                    <a href="#" class="btn">Add to cart</a>
+                    <span class="pice">$5</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="menu-8.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i></i>
+                    </div>
+                    <h3>Desserts</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, accusantium.
+                    </p>
+                    <a href="#" class="btn">Add to cart</a>
+                    <span class="pice">$14.68</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="menu-9.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>Orange juice</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, accusantium.
+                    </p>
+                    <a href="#" class="btn">Add to cart</a>
+                    <span class="pice">$4.99</span>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!--menu section ends-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <!--Js file-->
+    <script src="javascript.js"></script>
+
+</body>
+
+</html>#00000033
